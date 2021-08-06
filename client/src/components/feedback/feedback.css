@@ -1,0 +1,14 @@
+.feedback {
+  position: fixed;
+  bottom: 10%;
+  right: -42px;
+  transform: rotate(-90deg);
+  background: #3f51b5;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+ 

@@ -1,0 +1,181 @@
+.roww {
+    display:  flex;
+/* margin-left: 10px; */
+ padding: 20px 20px 0 0;
+ 
+}
+.icon2{
+   
+    margin-left: 1000px;
+}
+ .jobbtn{
+  padding-right: 200px;
+  position: relative;
+  display: inline-block;
+ }
+ #start{
+     font-size: 25px;
+     font-weight:600;
+ }
+ #p {
+     font-size: 12px;
+ }
+ .cv {
+     border: 1px solid #0C4085;
+     border-radius: 5px;
+     width: 250px;
+     height: 40px;
+     background-color: transparent;
+     color: #0C4085;
+     font-size: 14px;
+font-weight: 600;
+margin-bottom: 20px;
+cursor: pointer;
+ }
+ .cvm   {
+    border: 1px solid #0C4085;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    color: #0C4085;
+    font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+ } 
+ .uploadbtn{
+
+border: 1px solid #0C4085;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color:#0C4085 ;
+    color: white;
+    font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+margin-top:20px ;
+ }  
+ .uploadbtn:hover {
+    background-color: white;
+    color:#0C4085 ;
+ }
+
+
+ .optionnav{
+     display: flex;
+     justify-content: start;
+     flex-wrap: wrap;
+     margin-left: 80px;
+    margin-top: -50px;
+   margin-bottom: 100px;
+   
+    
+ }
+.list {
+    display: grid;
+ 
+}
+ 
+
+ /* .contacte{
+     border: 1px solid black;
+     box-shadow: gray;
+     
+width: 450px;
+height: 300px;
+ 
+    } */
+ .h{
+     margin-top: 40px;
+ }
+ .finishbtn {
+    border: 1px solid #0C4085;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color: #0C4085 ;
+    color: white;
+    font-size: 14px;
+font-weight: 600;
+margin-bottom: 20px;
+cursor: pointer;
+ }
+ .finishbtn:hover {
+    background-color: white;
+    color: #0C4085;
+    
+ }
+ .fbtn{
+     padding-top: 20px;
+ }
+ .addj {
+     color:#0C4085 ;
+ }
+#hoverable-div
+ {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+ }
+ #hoverable-div a {
+    color: black;
+    padding: 3px 5px;
+    text-decoration: none;
+    display: block;
+  }
+   
+
+.jobbtn:hover #hoverable-div {display: block;}
+
+ .backBtn {
+     background-color:transparent;
+     border-color: transparent;
+     padding-right: 1000px;
+     padding-top: 60px;
+    
+ }
+ .back{
+     font-size: 14px;
+     font-weight: 600;
+     color:#0C4085 ;
+     cursor: pointer;
+ }
+ .uploadcv {
+    display: block;
+    justify-content: center;
+    /* padding-top: 200px; */
+    border : 1px solid #EDEEF0; 
+    border-radius:5px ;
+   
+    width: 380px;
+    height: 250px;
+    margin-top: 30px;
+    padding-top: 60px;
+    margin-left: 500px;
+ }
+
+
+
+
+  .cardprofile {
+     border: 1px solid #EDEEF0;
+     border-radius: 5px;
+     width: 300px;
+     height: 300px;
+    margin-left: 50px;
+    padding-top: 20px;
+ }  
+
+ 
+ .upload {
+margin-top: 20px;
+
+ }
+ .information {
+     padding-top: 60px;
+ }
+ 

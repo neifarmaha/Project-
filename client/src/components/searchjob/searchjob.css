@@ -1,0 +1,33 @@
+ .search1{
+   
+  margin-right: 10px;
+    border: 1px solid #d8dbdc;
+    width: 230px;
+    height: 30px;
+    border-radius: 4px;
+     /* background-image: url(	data:image/svg+xml;charset=utf-8,%3Csvg width='179… 175.999 767.992Z' fill='%2372777c'/%3E%3C/svg%3E); */
+ }
+ .search2{
+  margin-right: 10px;
+    border: 1px solid #d8dbdc;
+    border-radius: 4px;
+    width: 230px;
+    height: 30px;
+ }
+ .research{
+    display: inline-flex;
+    margin-top: 20px;
+ }
+
+ .submit{
+    cursor: pointer;
+    border-radius: 50px;
+    width: 120px;
+    height: 35px;
+    background-color: cadetblue;
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    
+ }

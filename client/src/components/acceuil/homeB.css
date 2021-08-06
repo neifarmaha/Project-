@@ -1,0 +1,147 @@
+.back {
+  /* background-image: linear-gradient( 126deg ,#4ac5ac,#f8feb2); */
+  height: 656px;
+  /* background-color: #040E22; */
+  /* background-color: #D5DFFF; */
+  /* background-image: linear-gradient( 126deg ,#040E22,#4ac5ac); */
+}
+
+.bouton {
+  padding-top: 30px;
+  /* border-radius: 2em;
+   border-color: black; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: #d5dfff;
+  top: -180px;
+  left: -160px;
+  z-index: -1;
+  animation: navAnim 20s infinite alternate;
+}
+
+@keyframes navAnim {
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+body {
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact {
+  padding: 10px 20px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contactItem {
+  padding-right: 10px;
+}
+
+.contactItem:first-child {
+  border-right: 1px solid;
+  color: #e3e3e3;
+}
+
+.contactItem:nth-child(2) {
+  padding-left: 10px;
+}
+.contactItem:nth-child(3) {
+  border: 1px solid black;
+  margin-top: -4px;
+  border-radius: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#description{
+ font-size: 14px;
+display: block;
+ border: 1px solid black;
+ width:  400px;
+ height:80px;
+ font-weight: 500;
+ margin-left: 300px;
+ margin-top: 60px;
+ letter-spacing: 2px;
+ line-height:30px;
+ border-color: transparent;
+ color: teal;
+}
+#description1{
+  font-size: 14px;
+  display: block;
+   border: 1px solid black;
+   width:  400px;
+   height:80px;
+   font-weight: 500;
+   margin-left: 300px;
+   margin-top: 40px;
+   letter-spacing: 2px;
+   line-height:30px;
+   border-color: transparent;
+   color: rgb(182, 143, 182);
+
+}
+#description2 {
+
+  font-size: 14px;
+  display: block;
+   border: 1px solid black;
+   width:  600px;
+   font-weight: 800;
+   height:80px;
+   margin-left:400px;
+  
+   letter-spacing: 2px;
+   color: black;
+   border-color: transparent;
+    
+
+
+}
+
+ 
+#description4{
+  font-size: 18px;
+  display: block;
+   border: 1px solid black;
+   width:  600px;
+   font-weight: 800;
+   height:80px;
+   margin-left: 400px;
+   margin-top: -40px;
+   letter-spacing: 2px;
+   line-height:30px;
+   border-color: transparent;
+   font-weight: 800;
+   color: black;
+   
+}

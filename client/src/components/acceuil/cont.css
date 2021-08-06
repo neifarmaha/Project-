@@ -1,0 +1,36 @@
+.options {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+  /* color: #00cfc8; */
+  /* color: #4E5F7E; */
+  color: black;
+}
+
+.homepage_products_item {
+  background: #f0f0f1;
+  opacity: 80%;
+  border-radius: 14px;
+  text-decoration: none;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 250px;
+  height: 250px;
+
+  cursor: pointer;
+}

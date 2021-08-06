@@ -1,0 +1,167 @@
+  a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.footer {
+ padding-top: -30px; 
+  background: #121518; 
+}
+
+.footer .footer-about h3,
+.footer .footer-contact h3 {
+  position: relative;
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #eeeeee;
+}
+
+.footer .footer-about h3::after,
+.footer .footer-contact h3::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background: #eeeeee;
+ 
+}
+
+ 
+
+.footer-social a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 6px 0;
+  text-align: center;
+  color: #999999;
+  font-size: 14px;
+  border: 1px solid #999999;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+.footer .footer-social a:hover {
+  color: #ffffff;
+  background: #0085ff;
+  border-color: #0085ff;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #999999;
+}
+
+ 
+
+.footer-contact a:hover i {
+  color: #0085ff;
+}
+
+.footer-newsletter {
+  margin-bottom: 35px;
+  max-width: 700px;
+  text-align: center;
+  color: #999999;
+}
+
+.footer-newsletter input {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(256, 256, 256, 0.15);
+  margin-bottom: 15px;
+}
+
+.footer-newsletter .bttn {
+  
+  width: 300px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #e9414a;
+  border-radius: 5px;
+  border: none;
+}
+.subs {
+  padding-left: 600px;
+}
+
+.footer .footer-newsletter .bttn:hover {
+  color: #0085ff;
+  background: #ffffff;
+}
+
+.copyright {
+  position: relative;
+  padding: 20px 0;
+  background: #000000;
+}
+
+.copy-text p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  padding-right: 800px;
+
+  padding-top: 40px;
+}
+
+.copy-text p a {
+  color: #0085ff;
+  text-decoration: none;
+} 
+
+.copyright .copy-text p a:hover {
+  color: #ff008c;
+}
+
+ .copy-menu {
+  font-size: 0;
+  text-align: right;
+}
+
+.copyright .copy-menu a {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copyright .copy-menu a:hover {
+  color: #0085ff;
+}
+
+.row {
+  display: flex;
+  padding-top: 10px;
+}
+
+.footer-about {
+  padding-left: 100px;
+  margin-right: 160px;
+}
+.footer-about h3 {
+  display: flex;
+}
+.footer-contact p h3 {
+  display: flex;
+}
+.footer-newsletter .row {
+  padding-left: 300px;
+}
+.form-control {
+  margin-right: 20px;
+}

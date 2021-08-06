@@ -1,0 +1,49 @@
+.dynamic-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+     margin-left: 20px;
+}
+.dynamic-text.simply {
+      color: blue;
+      
+    }
+  
+    #text-target {
+      display: flex;
+      font-size: 40px;
+      width: 100px;
+      text-align: left;
+      animation: color 90s alternate infinite;
+      perspective: 200px;
+      transform: translateX(26px);
+    }
+    .word {
+      position: absolute;
+    }
+    @keyframes color {
+      0% {
+        color: rgb(126, 82, 167);
+      }
+      50% {
+        color: blueviolet;
+      }
+      100% {
+        color: blueviolet;
+      }
+    }
+    .letter {
+      transform: translateZ(200px);
+    }
+    @keyframes anim {
+      20% {
+        transform: translateZ(0px);
+        opacity: 0.5;
+      }
+      32% {
+        opacity: 0;
+        transform: translateZ(-280px) translateX(200px);
+      }
+    }
+  
+  

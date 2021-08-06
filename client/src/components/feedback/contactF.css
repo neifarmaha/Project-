@@ -1,0 +1,77 @@
+.mailhint {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+}
+ 
+.Fnamehint {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+  margin-top: 40px;
+}
+.Lnamehint {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+}
+.messagehint {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom:1px solid #d8dbdc ;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+}
+.contact-form {
+  padding-top: 100px;
+  padding-right: 400px;
+}
+.formButton {
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  margin-top: 100px;
+  margin-right: 320px;
+  background-color: cadetblue;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+}
+ .dot{
+  
+  height: 200px;
+  width: 200px;
+  background-color:transparent;
+  border:2px solid #D5DFFF;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+ 
+  top: 160px;
+  right: -60px;
+  z-index: -1;
+ 
+  /*animation: navAnim 20s infinite alternate;*/
+}
+#not-mail {
+  display: flex;
+  justify-content:space-around;
+  margin-left: -320px;
+  color: #72777c;
+  font-size: 12px;
+
+}
+

@@ -1,0 +1,85 @@
+.row {
+    display: flex;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 100px;
+}
+ 
+.login_panel_body {
+    padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
+}
+h1 {
+    font-size: 34px;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,Roboto,Oxygen-Sans,Ubuntu,Cantarell,sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+.login{
+    background: transparent none;
+    color: #61686b;
+    font-weight: bold;
+    text-decoration: none;
+   
+    
+}
+.login:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+     
+}
+
+.border-tabs>li>a {
+    padding: 18px 10px;
+     
+      margin-left: 10px;
+      margin-right: 50px;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 50px;
+    width: 406px;
+    height: 45px;
+    /* background-color: #c953cf; */
+    /* background-color: #61DAFB; */
+background-color: #57ABB4;
+    color: white;
+    border-style: none;
+     font-size: 14px;
+     font-weight: 400;
+   margin-top: 40px;
+    
+}
+     
+
+.email_hint {
+    border: 1px solid #d8dbdc;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.pass_hint{
+    border: 1px solid #d8dbdc;
+    width: 400px;
+    height: 40px;
+
+}
+.new:hover {
+    text-decoration: underline;
+
+}

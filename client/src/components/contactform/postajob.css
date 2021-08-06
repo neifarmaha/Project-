@@ -1,0 +1,86 @@
+h6 {
+  color: #72777c;
+  margin-top: 2px;
+  margin-right: 60px;
+}
+.Email_hint {
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.Pass_hint {
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.location {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.phonenumber {
+ 
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.orgname {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.website {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+ 
+.butn {
+  cursor: pointer;
+  border-radius: 50px;
+  width: 406px;
+  height: 45px;
+  background-color: cadetblue;
+  color: white;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.create_multistep .multi_step_progress {
+  background: #cbf1e8;
+  justify-content: left;
+  left: 0;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+.postj {
+  margin-top: -35px;
+}
+
+/* body:after{
+    content: '';
+    height: 180px;
+    width: 180px;
+    background: #e5e2ee;
+    border-color:#795fc2 ;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 150px;
+    right: 30px;
+    z-index: -2;
+    animation: homeAnim 15s infinite alternate;
+} */
+input[type=text], input[type=email], input[type=password], input[type=name] {
+  text-indent: 15px;
+}

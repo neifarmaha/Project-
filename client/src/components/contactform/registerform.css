@@ -1,0 +1,47 @@
+.firstname {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.lastname {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.phonenum {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.password1 {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.address {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.email1 {
+  margin-top: 20px;
+
+  border: 1px solid #d8dbdc;
+  width: 400px;
+  height: 40px;
+}
+.block {
+  display: grid;
+justify-content: center;
+padding-top: 40px;
+}

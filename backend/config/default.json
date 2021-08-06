@@ -1,0 +1,5 @@
+{
+
+    "MONGO_URL":"mongodb+srv://maha26:12345@cluster0.90mrb.mongodb.net/Findjob?retryWrites=true&w=majority",
+    "secret":"shhh"
+}
